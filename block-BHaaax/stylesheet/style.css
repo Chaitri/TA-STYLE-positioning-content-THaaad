@@ -48,40 +48,56 @@ table {
 }
 
 /* CUSTOM SYTLING */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
 
 header {
     background-color: rgb(0, 69, 109);
     padding: 50px;
+    font-size: 0;
 }
 
 h2 {
     display: inline-block;
     font-size: 20px;
     color: white;
-    width: 30%;
+    width: 72px;
 }
 
 nav {
-    float: right;
+    display: inline-block;
+    width: calc(100% - 72px);
+    text-align: right;
 }
 
 a {
     display: inline-block;
     color: white;
     text-decoration: none;
-}
-
-h1, p {
-    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
 }
 
 h1 {
     font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
 }
 
 .post-intro {
     display: inline-block;
     width: 50%;
+    vertical-align: top;
+    padding-left: 20px;
 }
 
 img {
