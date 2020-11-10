@@ -1,0 +1,76 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Positioning Content | Assignment 2</title>
+</head>
+<body id="top">
+    <header class="fixed-header">
+        <div class="header">
+            <div class="container clearfix">
+                <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQChm2U8CFPHDs6Mn4MZu54wjiqayN03Ws8HA&usqp=CAU" alt="logo">
+                <nav class="main-nav">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>
+        
+    </header>
+    <div class="space">
+
+    </div>
+
+    <main>
+        <section>
+            <article class="container clearfix blog">
+                <div class="intro desc">
+                    <h2>Lorem ipsum dolor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla totam asperiores labore libero atque voluptatibus officia, neque vero fuga voluptate dolor quam laboriosam. Nostrum vel unde nulla debitis sequi dolor!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur sit velit at ullam, laboriosam sed reiciendis aliquam adipisci debitis? Quaerat facilis exercitationem magni sint id! Ab voluptas at cupiditate vel.</p>
+                </div>
+                <img class="intro main-img" src="https://images.pexels.com/photos/2908958/pexels-photo-2908958.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="mountains">
+            </article>
+        </section>
+
+        <section class="gallery container clearfix">
+            <div>
+                <img class="gallery-img" src="https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="overhead shot of snowy forest">
+                <img class="gallery-img" src="https://images.pexels.com/photos/3572838/pexels-photo-3572838.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="squirrel in snow">
+                <img class="gallery-img" src="https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Aurora Borealis lights">
+            </div>
+            <div>
+                <img class="gallery-img" src="https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="snowy town">
+                <img class="gallery-img" src="https://images.pexels.com/photos/774664/pexels-photo-774664.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="snowy branch">
+                <img class="gallery-img" src="https://images.pexels.com/photos/1647248/pexels-photo-1647248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="snow covered pine cones">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <small>2020</small>
+        <small class="button">
+            <a href="#top">Top</a>
+        </small>
+    </footer>
+</body>
+</html>
